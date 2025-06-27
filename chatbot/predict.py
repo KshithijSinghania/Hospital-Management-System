@@ -5,11 +5,11 @@ from model import NeuralNet
 from utils import bag_of_words, tokenize
 
 # Load intents
-with open("data/intents.json", "r") as json_data:
+with open("chatbot\data\intents.json", "r") as json_data:
     intents = json.load(json_data)
 
 # Load model
-FILE = "model.pth"
+FILE = "chatbot\model.pth"
 data = torch.load(FILE)
 
 input_size = data["input_size"]

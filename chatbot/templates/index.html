@@ -190,21 +190,25 @@
       chatBox.scrollTop = chatBox.scrollHeight;
     }
 
-    function sendMessage(text = null) {
-      const msg = text || input.value.trim();
-      if (!msg) return;
-      addMessage("user", msg);
-      input.value = "";
-      fetch("/predict", {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({ message: msg }),
-      })
-        .then((res) => res.json())
-        .then((data) => {
-          addMessage("bot", data.response.replace(/<br>/g, "<br>"));
-        });
-    }
+    function sendMessage() {
+  const inputField = document.getElementById("user-input");
+  const msg = inputField.value.trim();
+  if (!msg) return;
+
+  addMessage("user", msg);
+  inputField.value = "";
+
+  fetch("/predict", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ message: msg })  // ✅ send text, not event
+  })
+    .then((res) => res.json())
+    .then((data) => {
+      addMessage("bot", data.response);
+    });
+}
+
 
     sendBtn.addEventListener("click", sendMessage);
     input.addEventListener("keydown", (e) => {

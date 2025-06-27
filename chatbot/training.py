@@ -7,7 +7,7 @@ from model import NeuralNet
 import numpy as np
 import random
 
-with open("data/intents.json", 'r') as f:
+with open("chatbot\data\intents.json", 'r') as f:
     intents = json.load(f)
 
 all_words = []

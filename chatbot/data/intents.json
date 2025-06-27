@@ -3,12 +3,12 @@
         {
             "tag": "greeting",
             "patterns": [
-                "Hi",
-                "Hey",
-                "How are you",
-                "Is anyone there?",
-                "Hello",
-                "Good"
+                "hi",
+                "hey",
+                "how are you",
+                "is anyone there?",
+                "hello",
+                "good"
             ],
             "responses": [
                 "Hi there, what can I do for you?"
@@ -17,9 +17,9 @@
         {
             "tag": "goodbye",
             "patterns": [
-                "Bye",
-                "See you later",
-                "Goodbye"
+                "bye",
+                "see you later",
+                "goodbye"
             ],
             "responses": [
                 "See you later, thanks for visiting <br>Have a nice day"
@@ -56,10 +56,10 @@
         {
             "tag": "Thanks",
             "patterns": [
-                "Thanks",
-                "Thank you",
-                "That's helpful",
-                "Thank's a lot!"
+                "thanks",
+                "thank you",
+                "that's helpful",
+                "thank's a lot!"
             ],
             "responses": [
                 "Happy to help! Any time you need ! "
@@ -68,9 +68,9 @@
         {
             "tag": "joke",
             "patterns": [
-                "Tell me a joke",
-                "Give me a joke",
-                "Share a joke"
+                "tell me a joke",
+                "give me a joke",
+                "share a joke"
             ],
             "responses": [
                 "Why did the doctor carry a red pen? In case they needed to draw blood!"
@@ -90,10 +90,10 @@
         {
             "tag": "Fever",
             "patterns": [
-                "Fever"
+                "fever"
             ],
             "responses": [
-                "Rest and drink plenty of fluids. Medication isn't needed. Call the doctor if the fever is accompanied by a severe headache, stiff neck, shortness of breath, or other unusual signs or symptoms. If you're uncomfortable, take paracetamol."
+                "You may have Fever.<br>Rest and drink plenty of fluids.<br> Medication isn't needed.<br> Call the doctor if the fever is accompanied by a severe headache, stiff neck, shortness of breath, or other unusual signs or symptoms.<br> If you're uncomfortable, take paracetamol.<br><br>Recommended actions:<br>1. Consult a doctor.<br>2. Rest and monitor symptoms.<br>3. Follow prescribed treatment.<br>4. Maintain a healthy lifestyle."
             ],
             "Precaution": "To avoid fever:<br>1. Stay hydrated.<br>2. Rest and get plenty of sleep.<br>3. Use fever-reducing medications as directed.<br>4. Seek medical attention if fever persists or worsens."
         },
@@ -127,26 +127,26 @@
         {
             "tag": "Bronchial Asthma",
             "patterns": [
-                "cough, fatigue, high fever, family history, mucoid sputum, breathlessness",
+                "cough, tiredness, high fever, family history, mucoid sputum, breathlessness",
                 "cough, high fever, family history, mucoid sputum",
                 "cough, high fever,breathlessness",
                 "cough, breathlessness",
-                "cough, fatigue, family history"
+                "cough, tiredness, family history"
             ],
             "responses": [
-                "You have Bronchial Asthma. Bronchial asthma is a chronic respiratory condition with symptoms like fatigue, cough, high fever, breathlessness, a family history of asthma, and mucoid sputum production.<br>Managing bronchial asthma involves avoiding triggers, taking prescribed medications, and having an asthma action plan."
+                "You have Bronchial Asthma. Bronchial asthma is a chronic respiratory condition with symptoms like fatigue, cough, high fever, breathlessness, a family history of asthma, and mucoid sputum production.<br>Managing bronchial asthma involves avoiding triggers, taking prescribed medications, and having an asthma action plan.<br>Recommended actions:<br>1. Consult a doctor.<br>2. Rest and monitor symptoms.<br>3. Follow prescribed treatment.<br>4. Maintain a healthy lifestyle."
             ],
             "Precaution": "To avoid bronchial asthma:<br>1. Follow your asthma action plan.<br>2. Avoid smoke and pollutants.<br>3. Use a humidifier to keep air moist.<br>4. Exercise regularly as recommended by your doctor."
         },
         {
             "tag": "Rheumatoid Arthritis",
             "patterns": [
-                "joint pain, joint stiffness, swelling, fatigue",
+                "joint pain, joint stiffness, swelling, tiredness",
                 "joint pain, joint stiffness, swelling",
-                "joint pain, joint stiffness, fatigue",
-                "joint stiffness, swelling, fatigue",
+                "joint pain, joint stiffness, tiredness",
+                "joint stiffness, swelling, tiredness",
                 "joint stiffness, swelling",
-                "joint pain, swelling, fatigue"
+                "joint pain, swelling, tiredness"
             ],
             "responses": [
                 "You may have Rheumatoid Arthritis. It's an autoimmune disease that affects the joints.<br>Recommended actions:<br>1. Consult a rheumatologist for diagnosis and treatment.<br>2. Medications and physical therapy may help manage symptoms.<br>3. Maintain a healthy lifestyle with regular exercise."
@@ -170,7 +170,7 @@
         {
             "tag": "HIV/AIDS",
             "patterns": [
-                "fatigue, weight loss, night sweats, recurrent infections",
+                "tiredness, weight loss, night sweats, recurrent infections",
                 "night sweats, recurrent infections",
                 "weight loss, night sweats, recurrent infections"
             ],
@@ -182,9 +182,9 @@
         {
             "tag": "Ovarian Cancer",
             "patterns": [
-                "abdominal pain, bloating, urinary frequency, fatigue",
-                "abdominal pain, urinary frequency, fatigue",
-                "abdominal pain, fatigue"
+                "abdominal pain, bloating, urinary frequency, tiredness",
+                "abdominal pain, urinary frequency, tiredness",
+                "abdominal pain, tiredness"
             ],
             "responses": [
                 "You may have Ovarian Cancer. It's a type of cancer that affects the ovaries.<br>Recommended actions:<br>1. Consult an oncologist for diagnosis and treatment options.<br>2. Surgery, chemotherapy, and radiation therapy are common treatments.<br>3. Early detection is crucial for better outcomes."
@@ -227,8 +227,8 @@
         {
             "tag": "Chronic Fatigue Syndrome",
             "patterns": [
-                "persistent fatigue, muscle pain, cognitive difficulties",
-                "persistent fatigue, muscle pain"
+                "persistent tiredness, muscle pain, cognitive difficulties",
+                "persistent tiredness, muscle pain"
             ],
             "responses": [
                 "You may be experiencing Chronic Fatigue Syndrome (CFS). It's a complex disorder characterized by long-term, unexplained fatigue.<br>Recommended actions:<br>1. Consult a healthcare professional for diagnosis and management.<br>2. Treatment may involve lifestyle changes, pacing, and symptom management."
@@ -249,7 +249,7 @@
         {
             "tag": "Type 2 Diabetes",
             "patterns": [
-                "excessive thirst, frequent urination, fatigue, blurred vision",
+                "excessive thirst, frequent urination, tiredness, blurred vision",
                 "excessive thirst, frequent urination, blurred vision"
             ],
             "responses": [
@@ -260,13 +260,13 @@
         {
             "tag": "Diabetes",
             "patterns": [
-                "irregular sugar level, fatigue, increased appetite, restlessness, weight loss, polyuria, blurred and distorted vision, lethargy, obesity, excessive hunger",
+                "irregular sugar level, tiredness, increased appetite, restlessness, weight loss, polyuria, blurred and distorted vision, tiredness, obesity, excessive hunger",
                 "irregular sugar level, increased appetite, restlessness, weight loss, excessive hunger",
                 "irregular sugar level, increased appetite, restlessness, weight loss",
                 "irregular sugar level, restlessness, weight loss, blurred and distorted vision, obesity, excessive hunger"
             ],
             "responses": [
-                "You have Diabetes. Diabetes is a metabolic disorder characterized by symptoms like fatigue, weight loss, restlessness, lethargy, irregular sugar levels, blurred and distorted vision, obesity, excessive hunger, increased appetite, and polyuria (excessive urination).<br>Managing diabetes involves maintaining a healthy lifestyle, monitoring blood sugar levels, and adhering to a prescribed treatment plan."
+                "You have Diabetes. Diabetes is a metabolic disorder characterized by symptoms like fatigue, weight loss, restlessness, lethargy, irregular sugar levels, blurred and distorted vision, obesity, excessive hunger, increased appetite, and polyuria (excessive urination).<br>Managing diabetes involves maintaining a healthy lifestyle, monitoring blood sugar levels, and adhering to a prescribed treatment plan.<br>Recommended actions:<br>1. Consult a doctor.<br>2. Rest and monitor symptoms.<br>3. Follow prescribed treatment.<br>4. Maintain a healthy lifestyle."
             ],
             "Precaution": "To avoid diabetes:<br>1. Maintain a healthy diet and weight.<br>2. Exercise regularly.<br>3. Monitor blood sugar levels.<br>4. Take prescribed medications as directed."
         },
@@ -286,8 +286,8 @@
         {
             "tag": "Migraine",
             "patterns": [
-                "severe headache, nausea, sensitivity to light and sound",
-                "severe headache, nausea",
+                "severe headache, feeling sick, sensitivity to light and sound",
+                "severe headache, feeling sick",
                 "severe headache, sensitivity to light and sound"
             ],
             "responses": [
@@ -298,9 +298,9 @@
         {
             "tag": "GERD (Gastroesophageal Reflux Disease)",
             "patterns": [
-                "cough, stomach pain, acidity, chest pain, vomiting, ulcers on tongue, heartburn",
-                "cough, stomach pain, acidity, chest pain, vomiting",
-                "cough, chest pain, vomiting, ulcers on tongue, heartburn"
+                "cough, stomach pain, acidity, chest pain, throwing up, ulcers on tongue, heartburn",
+                "cough, stomach pain, acidity, chest pain, throwing up",
+                "cough, chest pain, throwing up, ulcers on tongue, heartburn"
             ],
             "responses": [
                 "You have GERD (Gastroesophageal Reflux Disease). This is a digestive disorder.<br>Recommended actions:<br>1. Consult a doctor for diagnosis and treatment options.<br>2. Lifestyle changes like diet and weight management may help.<br>3. Medications can provide relief from symptoms.<br>4. Elevate the head of your bed to reduce nighttime reflux."
@@ -322,7 +322,7 @@
         {
             "tag": "Depression",
             "patterns": [
-                "persistent sadness, loss of interest, fatigue, changes in sleep patterns",
+                "persistent sadness, loss of interest, tiredness, changes in sleep patterns",
                 "sadness, loss of interest, changes in sleep patterns",
                 "sadness, loss of interest, no sleep"
             ],
@@ -361,16 +361,16 @@
                 "continuous sneezing, watering from eyes"
             ],
             "responses": [
-                "You may have Allergy. Allergy is a hypersensitivity disorder of the immune system. Common symptoms include continuous sneezing, shivering, chills, and watering from the eyes.<br>To manage Allergy, consider the following: <br>1. Identify and avoid allergens that trigger your symptoms.<br>2. Use antihistamines or decongestants as recommended by a doctor.<br>3. Keep your living space clean and dust-free.<br>4. Consult with an allergist for further evaluation and treatment options."
+                "You may have Allergy. Allergy is a hypersensitivity disorder of the immune system. Common symptoms include continuous sneezing, shivering, chills, and watering from the eyes.<br>To manage Allergy, consider the following: <br>1. Identify and avoid allergens that trigger your symptoms.<br>2. Use antihistamines or decongestants as recommended by a doctor.<br>3. Keep your living space clean and dust-free.<br>4. Consult with an allergist for further evaluation and treatment options.<br>Recommended actions:<br>1. Consult a doctor.<br>2. Rest and monitor symptoms.<br>3. Follow prescribed treatment.<br>4. Maintain a healthy lifestyle."
             ],
             "Precaution": "To avoid allergy:<br>1. Identify and avoid allergens.<br>2. Keep indoor environments clean and dust-free.<br>3. Take allergy medications as prescribed.<br>4. Consider allergy shots for long-term relief."
         },
         {
             "tag": "Chronic Cholestasis",
             "patterns": [
-                "loss of appetite, itching, abdominal pain, yellowish skin, vomiting, nausea, yellowing of eyes",
-                "itching, abdominal pain, yellowish skin, vomiting, yellowing of eyes",
-                "loss of appetite, itching, vomiting, nausea, yellowing of eyes"
+                "loss of appetite, itching, abdominal pain, yellowish skin, throwing up, feeling sick, yellowing of eyes",
+                "itching, abdominal pain, yellowish skin, throwing up, yellowing of eyes",
+                "loss of appetite, itching, throwing up, feeling sick, yellowing of eyes"
             ],
             "responses": [
                 "You have Chronic Cholestasis. This is a condition affecting the liver and bile ducts.<br>Recommended actions:<br>1. Consult a doctor for diagnosis and treatment.<br>2. Medications may be prescribed to manage symptoms.<br>3. Follow dietary recommendations.<br>4. Monitor liver function regularly."
@@ -384,18 +384,18 @@
                 "itching, burning micturition, spotting urination"
             ],
             "responses": [
-                "You have Drug Reaction Drug reactions can manifest with symptoms like itching, skin rash, stomach pain, burning micturition, and spotting urination.<br>If you suspect a drug reaction, consult your healthcare provider immediately for evaluation and appropriate steps."
+                "You have Drug Reaction Drug reactions can manifest with symptoms like itching, skin rash, stomach pain, burning micturition, and spotting urination.<br>If you suspect a drug reaction, consult your healthcare provider immediately for evaluation and appropriate steps.<br>Recommended actions:<br>1. Consult a doctor.<br>2. Rest and monitor symptoms.<br>3. Follow prescribed treatment.<br>4. Maintain a healthy lifestyle."
             ],
             "Precaution": "To avoid drug reaction:<br>1. Take medications as prescribed by a healthcare provider.<br>2. Report any adverse reactions to your doctor.<br>3. Inform healthcare providers of any allergies.<br>4. Avoid sharing medications with others."
         },
         {
             "tag": "Peptic ulcer disease",
             "patterns": [
-                "loss of appetite, passage of gases, abdominal pain, vomiting, indigestion, internal itching",
-                "passage of gases, abdominal pain, vomiting, indigestion, internal itching"
+                "loss of appetite, passage of gases, abdominal pain, throwing up, indigestion, internal itching",
+                "passage of gases, abdominal pain, throwing up, indigestion, internal itching"
             ],
             "responses": [
-                "You have Peptic ulcer disease. Symptoms of peptic ulcer disease may include vomiting, loss of appetite, abdominal pain, passage of gases, internal itching, and indigestion.<br>For the management of peptic ulcer disease, consult a gastroenterologist for diagnosis and treatment options."
+                "You have Peptic ulcer disease. Symptoms of peptic ulcer disease may include vomiting, loss of appetite, abdominal pain, passage of gases, internal itching, and indigestion.<br>For the management of peptic ulcer disease, consult a gastroenterologist for diagnosis and treatment options.<br>Recommended actions:<br>1. Consult a doctor.<br>2. Rest and monitor symptoms.<br>3. Follow prescribed treatment.<br>4. Maintain a healthy lifestyle."
             ],
             "Precaution": "To avoid peptic ulcer disease:<br>1. Manage stress.<br>2. Avoid nonsteroidal anti-inflammatory drugs (NSAIDs).<br>3. Follow a healthy diet and avoid spicy foods.<br>4. Treat underlying H. pylori infection if present."
         },
@@ -406,18 +406,18 @@
                 "patches in throat, high fever, muscle wasting"
             ],
             "responses": [
-                "You have AIDS (Acquired Immunodeficiency Syndrome). AIDS may present with symptoms such as muscle wasting, patches in the throat, high fever, and a history of extra-marital contacts.<br>AIDS is a serious condition, and it is crucial to seek medical attention immediately for diagnosis, treatment, and counseling."
+                "You have AIDS (Acquired Immunodeficiency Syndrome). AIDS may present with symptoms such as muscle wasting, patches in the throat, high fever, and a history of extra-marital contacts.<br>AIDS is a serious condition, and it is crucial to seek medical attention immediately for diagnosis, treatment, and counseling.<br>Recommended actions:<br>1. Consult a doctor.<br>2. Rest and monitor symptoms.<br>3. Follow prescribed treatment.<br>4. Maintain a healthy lifestyle."
             ],
             "Precaution": "To avoid AIDS:<br>1. Practice safe sex.<br>2. Use clean needles and syringes if injecting drugs.<br>3. Get tested for HIV regularly.<br>4. Consider pre-exposure prophylaxis (PrEP) for high-risk individuals."
         },
         {
             "tag": "Gastroenteritis",
             "patterns": [
-                "diarrhoea, dehydration, sunken eyes, vomiting",
-                "diarrhoea, sunken eyes, vomiting"
+                "loose motion, dehydration, sunken eyes, throwing up",
+                "loose motion, sunken eyes, throwing up"
             ],
             "responses": [
-                "You have Gastroenteritis. Gastroenteritis is an inflammation of the stomach and intestines, often causing symptoms such as vomiting, sunken eyes, dehydration, and diarrhea.<br>Treatment for gastroenteritis includes staying hydrated and, in severe cases, seeking medical attention for rehydration therapy."
+                "You have Gastroenteritis. Gastroenteritis is an inflammation of the stomach and intestines, often causing symptoms such as vomiting, sunken eyes, dehydration, and diarrhea.<br>Treatment for gastroenteritis includes staying hydrated and, in severe cases, seeking medical attention for rehydration therapy.<br>Recommended actions:<br>1. Consult a doctor.<br>2. Rest and monitor symptoms.<br>3. Follow prescribed treatment.<br>4. Maintain a healthy lifestyle."
             ],
             "Precaution": "To avoid gastroenteritis:<br>1. Practice good hygiene and handwashing.<br>2. Avoid contaminated food and water.<br>3. Stay hydrated when ill.<br>4. Follow public health guidelines for outbreaks."
         },
@@ -435,108 +435,108 @@
         {
             "tag": "Paralysis (brain hemorrhage)",
             "patterns": [
-                "headache, altered sensorium, weakness of one body side, vomiting",
-                "headache, altered sensorium, vomiting"
+                "headache, altered sensorium, weakness of one body side, throwing up",
+                "headache, altered sensorium, throwing up"
             ],
             "responses": [
-                "You have Paralysis due to Brain Hemorrhage. Brain hemorrhage may manifest with symptoms like vomiting, headache, weakness on one side of the body, and altered sensorium.<br>Immediate medical attention and interventions are crucial for managing brain hemorrhage-related paralysis."
+                "You have Paralysis due to Brain Hemorrhage. Brain hemorrhage may manifest with symptoms like vomiting, headache, weakness on one side of the body, and altered sensorium.<br>Immediate medical attention and interventions are crucial for managing brain hemorrhage-related paralysis.<br>Recommended actions:<br>1. Consult a doctor.<br>2. Rest and monitor symptoms.<br>3. Follow prescribed treatment.<br>4. Maintain a healthy lifestyle."
             ],
             "Precaution": "To avoid paralysis (brain hemorrhage):<br>1. Manage hypertension and other risk factors.<br>2. Seek prompt medical attention for stroke symptoms.<br>3. Follow a healthy lifestyle to reduce stroke risk.<br>4. Control diabetes and cholesterol levels."
         },
         {
             "tag": "Jaundice",
             "patterns": [
-                "high fever, fatigue, weight loss, itching, abdominal pain, vomiting, yellowish skin, dark urine",
-                "high fever, weight loss, itching, abdominal pain, vomiting, yellowish skin, dark urine",
+                "high fever, tiredness, weight loss, itching, abdominal pain, throwing up, yellowish skin, dark urine",
+                "high fever, weight loss, itching, abdominal pain, throwing up, yellowish skin, dark urine",
                 "pale stools, yellow color inside mouth, dark or brown color urine"
             ],
             "responses": [
-                "You have Jaundice. Jaundice is a disease characterized by yellowing of the skin and eyes. It can be caused by various factors such as liver problems or infections. Here are four points to cure Jaundice:<br>1. Get plenty of rest.<br>2. Stay hydrated.<br>3. Avoid alcohol and fatty foods.<br>4. Consult a healthcare professional for further evaluation and treatment."
+                "You have Jaundice. Jaundice is a disease characterized by yellowing of the skin and eyes. It can be caused by various factors such as liver problems or infections. Here are four points to cure Jaundice:<br>1. Get plenty of rest.<br>2. Stay hydrated.<br>3. Avoid alcohol and fatty foods.<br>4. Consult a healthcare professional for further evaluation and treatment.<br>Recommended actions:<br>1. Consult a doctor.<br>2. Rest and monitor symptoms.<br>3. Follow prescribed treatment.<br>4. Maintain a healthy lifestyle."
             ],
             "Precaution": "To avoid jaundice:<br>1. Prevent hepatitis through vaccination and safe sex practices.<br>2. Practice good hygiene and food safety.<br>3. Avoid excessive alcohol consumption.<br>4. Seek prompt medical attention for liver-related symptoms."
         },
         {
             "tag": "Malaria",
             "patterns": [
-                "sweating, high fever, muscle pain, headache, diarrhoea, vomiting, chills, nausea",
-                "sweating, high fever, muscle pain, headache, vomiting, chills, nausea",
-                "sweating, muscle pain, headache, vomiting, chills, nausea"
+                "sweating, high fever, muscle pain, headache, loose motion, throwing up, chills, feeling sick",
+                "sweating, high fever, muscle pain, headache, throwing up, chills, feeling sick",
+                "sweating, muscle pain, headache, throwing up, chills, feeling sick"
             ],
             "responses": [
-                "You have Malaria. Malaria is a mosquito-borne disease that can cause high fever and other symptoms. Here are four points to cure Malaria:<br>1. Take antimalarial medications as prescribed by a doctor.<br>2. Get plenty of rest.<br>3. Stay hydrated.<br>4. Use mosquito nets and repellents to prevent further mosquito bites."
+                "You have Malaria. Malaria is a mosquito-borne disease that can cause high fever and other symptoms. Here are four points to cure Malaria:<br>1. Take antimalarial medications as prescribed by a doctor.<br>2. Get plenty of rest.<br>3. Stay hydrated.<br>4. Use mosquito nets and repellents to prevent further mosquito bites.<br>Recommended actions:<br>1. Consult a doctor.<br>2. Rest and monitor symptoms.<br>3. Follow prescribed treatment.<br>4. Maintain a healthy lifestyle."
             ],
             "Precaution": "To avoid malaria:<br>1. Use insect repellent and bed nets.<br>2. Take prescribed antimalarial medications.<br>3. Eliminate standing water to reduce mosquito breeding.<br>4. Be aware of malaria risk in endemic areas."
         },
         {
             "tag": "Chicken pox",
             "patterns": [
-                "red spots over body, high fever, fatigue, malaise, loss of appetite, headache, skin rash, itching, mild fever, swelled lymph nodes, lethargy",
-                "red spots over body, high fever, fatigue, malaise, lethargy",
+                "red spots over body, high fever, tiredness, malaise, loss of appetite, headache, skin rash, itching, mild fever, swelled lymph nodes, tiredness",
+                "red spots over body, high fever, tiredness, malaise, tiredness",
                 "red spots over body, high fever",
-                "malaise, headache, skin rash, itching, mild fever, lethargy",
+                "malaise, headache, skin rash, itching, mild fever, tiredness",
                 "red spots over body, high fever, malaise, headache, skin rash, mild fever, swelled lymph nodes"
             ],
             "responses": [
-                "You have Chicken pox. Chicken pox is a highly contagious viral infection that causes an itchy rash and flu-like symptoms. Here are four points to cure Chicken pox:<br>1. Get plenty of rest.<br>2. Keep the affected areas clean and avoid scratching.<br>3. Take over-the-counter pain relievers to reduce fever and discomfort.<br>4. Isolate yourself to prevent spreading the virus to others."
+                "You have Chicken pox. Chicken pox is a highly contagious viral infection that causes an itchy rash and flu-like symptoms. Here are four points to cure Chicken pox:<br>1. Get plenty of rest.<br>2. Keep the affected areas clean and avoid scratching.<br>3. Take over-the-counter pain relievers to reduce fever and discomfort.<br>4. Isolate yourself to prevent spreading the virus to others.<br>Recommended actions:<br>1. Consult a doctor.<br>2. Rest and monitor symptoms.<br>3. Follow prescribed treatment.<br>4. Maintain a healthy lifestyle."
             ],
             "Precaution": "To avoid chickenpox:<br>1. Get vaccinated.<br>2. Avoid close contact with infected individuals.<br>3. Practice good hygiene.<br>4. Use over-the-counter treatments for symptom relief."
         },
         {
             "tag": "Dengue",
             "patterns": [
-                "high fever, fatigue, muscle pain, malaise, loss of appetite, headache, skin rash, vomiting, back pain, chills, nausea, joint pain, pain behind the eyes",
-                "high fever, muscle pain, headache, skin rash, vomiting",
-                "skin rash, vomiting, back pain, chills, nausea, joint pain, pain behind the eyes"
+                "high fever, tiredness, muscle pain, malaise, loss of appetite, headache, skin rash, throwing up, back pain, chills, feeling sick, joint pain, pain behind the eyes",
+                "high fever, muscle pain, headache, skin rash, throwing up",
+                "skin rash, throwing up, back pain, chills, feeling sick, joint pain, pain behind the eyes"
             ],
             "responses": [
-                "You have Dengue. Dengue is a mosquito-borne viral infection that can cause severe flu-like symptoms. Here are four points to cure Dengue:<br>1. Stay hydrated by drinking plenty of fluids.<br>2. Get plenty of rest.<br>3. Monitor your platelet count and seek medical attention if it drops significantly.<br>4. Use mosquito nets and repellents to prevent further mosquito bites."
+                "You have Dengue. Dengue is a mosquito-borne viral infection that can cause severe flu-like symptoms. Here are four points to cure Dengue:<br>1. Stay hydrated by drinking plenty of fluids.<br>2. Get plenty of rest.<br>3. Monitor your platelet count and seek medical attention if it drops significantly.<br>4. Use mosquito nets and repellents to prevent further mosquito bites.<br>Recommended actions:<br>1. Consult a doctor.<br>2. Rest and monitor symptoms.<br>3. Follow prescribed treatment.<br>4. Maintain a healthy lifestyle."
             ],
             "Precaution": "To avoid dengue:<br>1. Prevent mosquito bites with repellent and protective clothing.<br>2. Eliminate mosquito breeding sites.<br>3. Get prompt medical attention for severe symptoms.<br>4. Follow public health guidelines during outbreaks."
         },
         {
             "tag": "Typhoid",
             "patterns": [
-                "high fever, fatigue, diarrhoea, abdominal pain, vomiting, toxic look (typhos), chills, nausea, belly pain, constipation",
-                "high fever, fatigue, abdominal pain, vomiting, belly pain",
-                "high fever, fatigue, diarrhoea, abdominal pain, toxic look, constipation"
+                "high fever, tiredness, loose motion, abdominal pain, throwing up, toxic look (typhos), chills, feeling sick, belly pain, constipation",
+                "high fever, tiredness, abdominal pain, throwing up, belly pain",
+                "high fever, tiredness, loose motion, abdominal pain, toxic look, constipation"
             ],
             "responses": [
-                "You have Typhoid. Typhoid is a bacterial infection that can cause high fever and gastrointestinal symptoms. Here are four points to cure Typhoid:<br>1. Take antibiotics as prescribed by a doctor.<br>2. Stay hydrated and eat a bland diet.<br>3. Practice good hygiene and wash your hands frequently.<br>4. Rest and avoid strenuous activities."
+                "You have Typhoid. Typhoid is a bacterial infection that can cause high fever and gastrointestinal symptoms. Here are four points to cure Typhoid:<br>1. Take antibiotics as prescribed by a doctor.<br>2. Stay hydrated and eat a bland diet.<br>3. Practice good hygiene and wash your hands frequently.<br>4. Rest and avoid strenuous activities.<br>Recommended actions:<br>1. Consult a doctor.<br>2. Rest and monitor symptoms.<br>3. Follow prescribed treatment.<br>4. Maintain a healthy lifestyle."
             ],
             "Precaution": "To avoid typhoid:<br>1. Practice good hygiene and handwashing.<br>2. Consume safe and well-cooked food and water.<br>3. Consider typhoid vaccination for travel to endemic regions.<br>4. Seek medical treatment if you suspect infection."
         },
         {
             "tag": "Hepatitis A",
             "patterns": [
-                "muscle pain, loss of appetite, mild fever, diarrhoea, abdominal pain, vomiting, yellowish skin, nausea, joint pain, yellowing of eyes, dark urine",
-                "muscle pain, mild fever, abdominal pain, vomiting, nausea, joint pain, dark urine",
-                "muscle pain, loss of appetite, mild fever, diarrhoea, abdominal pain, vomiting, yellowish skin, nausea",
-                "muscle pain, loss of appetite, mild fever, vomiting"
+                "muscle pain, loss of appetite, mild fever, loose motion, abdominal pain, throwing up, yellowish skin, feeling sick, joint pain, yellowing of eyes, dark urine",
+                "muscle pain, mild fever, abdominal pain, throwing up, feeling sick, joint pain, dark urine",
+                "muscle pain, loss of appetite, mild fever, loose motion, abdominal pain, throwing up, yellowish skin, feeling sick",
+                "muscle pain, loss of appetite, mild fever, throwing up"
             ],
             "responses": [
-                "You have Hepatitis A. Hepatitis A is a viral infection that affects the liver and can cause jaundice. Here are four points to cure Hepatitis A:<br>1. Get plenty of rest.<br>2. Stay hydrated and eat a balanced diet.<br>3. Avoid alcohol and liver-damaging substances.<br>4. Consult a healthcare professional for further evaluation and treatment."
+                "You have Hepatitis A. Hepatitis A is a viral infection that affects the liver and can cause jaundice. Here are four points to cure Hepatitis A:<br>1. Get plenty of rest.<br>2. Stay hydrated and eat a balanced diet.<br>3. Avoid alcohol and liver-damaging substances.<br>4. Consult a healthcare professional for further evaluation and treatment.<br>Recommended actions:<br>1. Consult a doctor.<br>2. Rest and monitor symptoms.<br>3. Follow prescribed treatment.<br>4. Maintain a healthy lifestyle."
             ],
             "Precaution": "To avoid hepatitis A:<br>1. Get vaccinated.<br>2. Practice good hygiene and food safety.<br>3. Avoid contaminated water and food.<br>4. Consider immune globulin for immediate protection in high-risk situations."
         },
         {
             "tag": "Hepatitis B",
             "patterns": [
-                "fatigue, malaise,loss of appetite, receiving unsterile injections, itching, receiving blood transfusion, abdominal pain, yellowish skin, yellow urine, yellowing of eyes, lethargy, dark urine",
+                "tiredness, malaise,loss of appetite, receiving unsterile injections, itching, receiving blood transfusion, abdominal pain, yellowish skin, yellow urine, yellowing of eyes, tiredness, dark urine",
                 "receiving unsterile injections, itching, receiving blood transfusion, yellow urine, yellowing of eyes, dark urine",
-                "fatigue, malaise, loss of appetite, itching, dark urine",
+                "tiredness, malaise, loss of appetite, itching, dark urine",
                 "receiving unsterile injections, itching, abdominal pain, yellowish skin, yellow urine, yellowing of eyes"
             ],
             "responses": [
-                "You have Hepatitis B. Hepatitis B is a viral infection that affects the liver and can lead to chronic liver disease. Here are four points to cure Hepatitis B:<br>1. Consult a healthcare professional for antiviral treatment.<br>2. Get vaccinated to prevent future infections.<br>3. Practice safe sex and avoid sharing needles or personal items that may spread the virus.<br>4. Limit alcohol consumption and maintain a healthy lifestyle."
+                "You have Hepatitis B. Hepatitis B is a viral infection that affects the liver and can lead to chronic liver disease. Here are four points to cure Hepatitis B:<br>1. Consult a healthcare professional for antiviral treatment.<br>2. Get vaccinated to prevent future infections.<br>3. Practice safe sex and avoid sharing needles or personal items that may spread the virus.<br>4. Limit alcohol consumption and maintain a healthy lifestyle.<br>Recommended actions:<br>1. Consult a doctor.<br>2. Rest and monitor symptoms.<br>3. Follow prescribed treatment.<br>4. Maintain a healthy lifestyle."
             ],
             "Precaution": "To avoid hepatitis B:<br>1. Get vaccinated.<br>2. Practice safe sex and avoid sharing needles.<br>3. Seek medical treatment for infected individuals.<br>4. Ensure healthcare workers follow standard precautions."
         },
         {
             "tag": "Hepatitis C",
             "patterns": [
-                "fatigue, jaundice, abdominal pain, dark urine",
-                "fatigue, jaundice, abdominal pain",
-                "fatigue, abdominal pain, dark urine"
+                "tiredness, jaundice, abdominal pain, dark urine",
+                "tiredness, jaundice, abdominal pain",
+                "tiredness, abdominal pain, dark urine"
             ],
             "responses": [
                 "You may have Hepatitis C. It's a viral infection that affects the liver.<br>Recommended actions:<br>1. Consult a healthcare professional for diagnosis and treatment.<br>2. Antiviral medications can be prescribed to manage Hepatitis C.<br>3. Avoid alcohol and follow a liver-healthy diet."
@@ -546,34 +546,34 @@
         {
             "tag": "Hepatitis D",
             "patterns": [
-                "fatigue, loss of appetite, abdominal pain, vomiting, yellowish skin, nausea, joint pain, yellowing of eyes, dark urine",
-                "fatigue, loss of appetite, abdominal pain, yellowish skin, nausea, joint pain, yellowing of eyes, dark urine",
-                "fatigue, abdominal pain, yellowish skin, joint pain, yellowing of eyes, dark urine",
-                "fatigue, loss of appetite, abdominal pain, vomiting, joint pain"
+                "tiredness, loss of appetite, abdominal pain, throwing up, yellowish skin, feeling sick, joint pain, yellowing of eyes, dark urine",
+                "tiredness, loss of appetite, abdominal pain, yellowish skin, feeling sick, joint pain, yellowing of eyes, dark urine",
+                "tiredness, abdominal pain, yellowish skin, joint pain, yellowing of eyes, dark urine",
+                "tiredness, loss of appetite, abdominal pain, throwing up, joint pain"
             ],
             "responses": [
-                "You have Hepatitis D. Hepatitis D is a viral infection that affects the liver and can worsen the symptoms of Hepatitis B. Here are four points to cure Hepatitis D:<br>1. Consult a healthcare professional for antiviral treatment.<br>2. Get vaccinated for Hepatitis B to prevent further infection.<br>3. Avoid alcohol and liver-damaging substances.<br>4. Follow medical advice and regular check-ups."
+                "You have Hepatitis D. Hepatitis D is a viral infection that affects the liver and can worsen the symptoms of Hepatitis B. Here are four points to cure Hepatitis D:<br>1. Consult a healthcare professional for antiviral treatment.<br>2. Get vaccinated for Hepatitis B to prevent further infection.<br>3. Avoid alcohol and liver-damaging substances.<br>4. Follow medical advice and regular check-ups.<br>Recommended actions:<br>1. Consult a doctor.<br>2. Rest and monitor symptoms.<br>3. Follow prescribed treatment.<br>4. Maintain a healthy lifestyle."
             ],
             "Precaution": "To avoid hepatitis D:<br>1. Get vaccinated against hepatitis B.<br>2. Practice safe sex and avoid sharing needles.<br>3. Seek medical treatment for infected individuals.<br>4. Ensure healthcare workers follow standard precautions."
         },
         {
             "tag": "Hepatitis E",
             "patterns": [
-                "high fever, fatigue, loss of appetite, stomach bleeding, abdominal pain, vomiting, yellowish skin, coma, nausea, joint pain, yellowing of eyes, dark urine",
-                "high fever, fatigue, stomach bleeding, abdominal pain, vomiting",
-                "high fever, coma, nausea, joint pain, yellowing of eyes, dark urine"
+                "high fever, tiredness, loss of appetite, stomach bleeding, abdominal pain, throwing up, yellowish skin, coma, feeling sick, joint pain, yellowing of eyes, dark urine",
+                "high fever, tiredness, stomach bleeding, abdominal pain, throwing up",
+                "high fever, coma, feeling sick, joint pain, yellowing of eyes, dark urine"
             ],
             "responses": [
-                "You have Hepatitis E. Hepatitis E is a viral infection that affects the liver and can cause severe symptoms. Here are four points to cure Hepatitis E:<br>1. Seek immediate medical attention if symptoms are severe.<br>2. Get plenty of rest and stay hydrated.<br>3. Follow medical advice and treatment recommendations.<br>4. Practice good hygiene to prevent further spread of the virus."
+                "You have Hepatitis E. Hepatitis E is a viral infection that affects the liver and can cause severe symptoms. Here are four points to cure Hepatitis E:<br>1. Seek immediate medical attention if symptoms are severe.<br>2. Get plenty of rest and stay hydrated.<br>3. Follow medical advice and treatment recommendations.<br>4. Practice good hygiene to prevent further spread of the virus.<br>Recommended actions:<br>1. Consult a doctor.<br>2. Rest and monitor symptoms.<br>3. Follow prescribed treatment.<br>4. Maintain a healthy lifestyle."
             ],
             "Precaution": "To avoid hepatitis E:<br>1. Practice good hygiene and safe food handling.<br>2. Avoid drinking untreated water in endemic areas.<br>3. Get prompt medical attention if you suspect infection.<br>4. Consider the hepatitis E vaccine if traveling to high-risk regions."
         },
         {
             "tag": "Alcoholic hepatitis",
             "patterns": [
-                "abdominal pain, yellowish skin, swelling of stomach, vomiting, history of alcohol consumption, distention of abdomen, fluid overload",
+                "abdominal pain, yellowish skin, swelling of stomach, throwing up, history of alcohol consumption, distention of abdomen, fluid overload",
                 "yellowish skin, swelling of stomach, distention of abdomen, fluid overload",
-                "abdominal pain, swelling of stomach, vomiting, history of alcohol consumption"
+                "abdominal pain, swelling of stomach, throwing up, history of alcohol consumption"
             ],
             "responses": [
                 "You have Alcoholic hepatitis. This is a disease caused by excessive alcohol consumption.<br>Recommended actions:<br>1. Stop consuming alcohol.<br>2. Seek medical attention immediately.<br>3. Rest and hydrate.<br>4. Follow your doctor's advice."
@@ -583,9 +583,9 @@
         {
             "tag": "Tuberculosis",
             "patterns": [
-                "sweating, cough, fatigue, high fever, malaise, weight loss, loss of appetite, chest pain, mild fever, phlegm, vomiting, chills, swelled lymph nodes, breathlessness, yellowing of eyes, blood in sputum",
+                "sweating, cough, tiredness, high fever, malaise, weight loss, loss of appetite, chest pain, mild fever, phlegm, throwing up, chills, swelled lymph nodes, breathlessness, yellowing of eyes, blood in sputum",
                 "sweating, weight loss, loss of appetite, swelled lymph nodes, breathlessness, yellowing of eyes, blood in sputum",
-                "sweating, cough, fatigue, high fever, malaise, weight loss, Shortness of Breath"
+                "sweating, cough, tiredness, high fever, malaise, weight loss, shortness of breath"
             ],
             "responses": [
                 "You have Tuberculosis. This is a bacterial infection that affects the lungs.<br>Recommended actions:<br>1. Seek immediate medical attention.<br>2. Follow your doctor's treatment plan.<br>3. Rest and maintain good hygiene.<br>4. Isolate yourself to prevent the spread of the disease."
@@ -595,9 +595,9 @@
         {
             "tag": "Common Cold",
             "patterns": [
-                "loss of smell, cough, fatigue, high fever, malaise, runny nose, continuous sneezing, headache, congestion, redness of eyes, chest pain, phlegm, muscle pain, sinus pressure, chills, swelled lymph nodes, throat irritation",
+                "loss of smell, cough, tiredness, high fever, malaise, runny nose, continuous sneezing, headache, congestion, redness of eyes, chest pain, phlegm, muscle pain, sinus pressure, chills, swelled lymph nodes, throat irritation",
                 "loss of smell, cough, runny nose, chills, swelled lymph nodes, throat irritation",
-                "cough, fatigue, high fever, runny nose,e continuous snezing, headache, congestion, redness of eyes",
+                "cough, tiredness, high fever, runny nose,e continuous snezing, headache, congestion, redness of eyes",
                 "cold, cough, high fever, body pain"
             ],
             "responses": [
@@ -608,9 +608,9 @@
         {
             "tag": "Pneumonia",
             "patterns": [
-                "sweating, cough, fatigue, high fever, malaise, fast heart rate, rusty sputum, chest pain, chills, breathlessness",
-                "sweating, cough, fatigue, rusty sputum, chest pain, chills",
-                "sweating, cough, fatigue, fast heart rate, rusty sputum, chest pain, chills, breathlessness"
+                "sweating, cough, tiredness, high fever, malaise, fast heart rate, rusty sputum, chest pain, chills, breathlessness",
+                "sweating, cough, tiredness, rusty sputum, chest pain, chills",
+                "sweating, cough, tiredness, fast heart rate, rusty sputum, chest pain, chills, breathlessness"
             ],
             "responses": [
                 "You have Pneumonia. This is a bacterial or viral infection of the lungs.<br>Recommended actions:<br>1. Seek immediate medical attention.<br>2. Follow your doctor's prescribed antibiotics or treatments.<br>3. Get plenty of rest and stay hydrated.<br>4. Avoid smoking and maintain good hygiene."
@@ -632,10 +632,10 @@
         {
             "tag": "Hypothyroidism",
             "patterns": [
-                "fatigue, abnormal menstruation, cold hands and feets, mood swings, weight gain, dizziness, enlarged thyroid, swollen extremeties, brittle nails, depression, puffy face and eyes, irritability, lethargy",
-                "fatigue, cold hands and feets, mood swings, weight gain, sbrittle nails, depression, puffy face and eyes, irritability, lethargy",
-                "chills, brittle nails, depression, puffy face and eyes, irritability, lethargy",
-                "fatigue, abnormal menstruation, dizziness, enlarged thyroid"
+                "tiredness, abnormal menstruation, cold hands and feets, mood swings, weight gain, dizziness, enlarged thyroid, swollen extremeties, brittle nails, depression, puffy face and eyes, irritability, tiredness",
+                "tiredness, cold hands and feets, mood swings, weight gain, sbrittle nails, depression, puffy face and eyes, irritability, tiredness",
+                "chills, brittle nails, depression, puffy face and eyes, irritability, tiredness",
+                "tiredness, abnormal menstruation, dizziness, enlarged thyroid"
             ],
             "responses": [
                 "You have Hypothyroidism. This is a condition where the thyroid gland does not produce enough thyroid hormones.<br>Recommended actions:<br>1. Take thyroid medication as prescribed by your doctor.<br>2. Maintain a balanced diet.<br>3. Exercise regularly to boost metabolism.<br>4. Manage stress and get regular check-ups."
@@ -645,10 +645,10 @@
         {
             "tag": "Hyperthyroidism",
             "patterns": [
-                "sweating, fatigue, fast heart rate, abnormal menstruation, restlessness, weight loss, mood swings, diarrhoea, muscle weakness, irritability, excessive hunger",
+                "sweating, tiredness, fast heart rate, abnormal menstruation, restlessness, weight loss, mood swings, loose motion, muscle weakness, irritability, excessive hunger",
                 "sweating, fast heart rate, weight loss, mood swings, muscle weakness, irritability",
-                "sweating, fatigue, abnormal menstruation, restlessness, diarrhoea, muscle weakness, excessive hunger",
-                "sweating, fatigue, restlessness, diarrhoea, muscle weakness"
+                "sweating, tiredness, abnormal menstruation, restlessness, loose motion, muscle weakness, excessive hunger",
+                "sweating, tiredness, restlessness, loose motion, muscle weakness"
             ],
             "responses": [
                 "You have Hyperthyroidism. This is a condition where the thyroid gland produces too much thyroid hormone.<br>Recommended actions:<br>1. Consult an endocrinologist for treatment options.<br>2. Medication, radioactive iodine, or surgery may be recommended.<br>3. Monitor your thyroid levels regularly.<br>4. Maintain a healthy lifestyle."
@@ -658,10 +658,10 @@
         {
             "tag": "Hypoglycemia",
             "patterns": [
-                "sweating, fatigue, headache, drying and tingling lips, slurred speech, vomiting, anxiety, nausea, blurred and distorted vision, irritability, palpitations, excessive hunger",
-                "sweating, fatigue, headache, blurred and distorted vision, irritability, palpitations, excessive hunger",
-                "sweating, fatigue, headache, irritability, excessive hunger",
-                "sweating, fatigue, headache, drying and tingling lips, slurred speech, vomiting, anxiety, nausea"
+                "sweating, tiredness, headache, drying and tingling lips, slurred speech, throwing up, anxiety, feeling sick, blurred and distorted vision, irritability, palpitations, excessive hunger",
+                "sweating, tiredness, headache, blurred and distorted vision, irritability, palpitations, excessive hunger",
+                "sweating, tiredness, headache, irritability, excessive hunger",
+                "sweating, tiredness, headache, drying and tingling lips, slurred speech, throwing up, anxiety, feeling sick"
             ],
             "responses": [
                 "You have Hypoglycemia. This is a condition characterized by low blood sugar levels.<br>Recommended actions:<br>1. Consume fast-acting carbohydrates like glucose tablets or juice.<br>2. Follow a balanced diet with regular meals and snacks.<br>3. Carry a medical ID indicating hypoglycemia.<br>4. Consult a healthcare provider for diabetes management if necessary."
@@ -683,9 +683,9 @@
         {
             "tag": "Psoriasis",
             "patterns": [
-                "inflammatory nails, small dents in nails, skin rash, silver like dusting, skin peeling, joint pain,Plaque psoriasis, Skin pain, Nail psoriasis,Itchy skin",
-                "skin peeling, joint pain,Plaque psoriasis, Skin pain, Nail psoriasis ,Itchy skin",
-                "skin rash, silver like dusting, Skin pain, Nail psoriasis, Itchy skin"
+                "inflammatory nails, small dents in nails, skin rash, silver like dusting, skin peeling, joint pain,plaque psoriasis, skin pain, nail psoriasis,itchy skin",
+                "skin peeling, joint pain,plaque psoriasis, skin pain, nail psoriasis ,itchy skin",
+                "skin rash, silver like dusting, skin pain, nail psoriasis, itchy skin"
             ],
             "responses": [
                 "You have Psoriasis. This is a chronic skin condition with various symptoms.<br>Recommended actions:<br>1. Consult a dermatologist for proper diagnosis.<br>2. Treatments may include topical medications and phototherapy.<br>3. Moisturize regularly and avoid triggers.<br>4. Manage stress to reduce flare-ups."
@@ -718,8 +718,8 @@
         {
             "tag": "Heart Attack",
             "patterns": [
-                "sweating, chest pain, Shortness of breath, Lightheadedness , vomiting",
-                "Heartburn ,chest pain, Cold sweat",
+                "sweating, chest pain, shortness of breath, lightheadedness , throwing up",
+                "heartburn ,chest pain, cold sweat",
                 "sweating, chest pain, breathlessness, indigestion"
             ],
             "responses": [
@@ -730,9 +730,9 @@
         {
             "tag": "Varicose Veins",
             "patterns": [
-                "fatigue, bruising, swollen legs, swollen blood vessels, prominent veins on calf, cramps, obesity",
+                "tiredness, bruising, swollen legs, swollen blood vessels, prominent veins on calf, cramps, obesity",
                 "swollen legs, swollen blood vessels, prominent veins on calf, cramps, obesity",
-                "fatigue, bruising, swollen legs, cramps, obesity"
+                "tiredness, bruising, swollen legs, cramps, obesity"
             ],
             "responses": [
                 "You might have Varicose Veins. Varicose veins are swollen and twisted veins that can be painful.<br>Recommended actions:<br>1. Elevate your legs when resting.<br>2. Wear compression stockings.<br>3. Exercise regularly.<br>4. Consult a doctor for severe symptoms."
@@ -742,8 +742,8 @@
         {
             "tag": "Vertigo",
             "patterns": [
-                "spinning movements, headache, vomiting, nausea, unsteadiness, loss of balance",
-                "nausea, unsteadiness, loss of balance",
+                "spinning movements, headache, throwing up, feeling sick, unsteadiness, loss of balance",
+                "feeling sick, unsteadiness, loss of balance",
                 "sunsteadiness, spinning movements, loss of balance"
             ],
             "responses": [
@@ -754,8 +754,8 @@
         {
             "tag": "Dizziness",
             "patterns": [
-                "spinning movements, dizziness, ear pain, vomiting, visual disturbances, nausea, unsteadiness, loss of balance",
-                "dizziness, vomiting, visual disturbances",
+                "spinning movements, dizziness, ear pain, throwing up, visual disturbances, feeling sick, unsteadiness, loss of balance",
+                "dizziness, throwing up, visual disturbances",
                 "spinning movements, ear pain, visual disturbances, loss of balance"
             ],
             "responses": [
@@ -766,7 +766,7 @@
         {
             "tag": "Anemia",
             "patterns": [
-                "shortness of breath, fast heartbeat, fatigue, cold hands and feets, dizziness, headache, pale skin, irregular menstrual period, poor concentration, brittle nails, weakness"
+                "shortness of breath, fast heartbeat, tiredness, cold hands and feets, dizziness, headache, pale skin, irregular menstrual period, poor concentration, brittle nails, weakness"
             ],
             "responses": [
                 "You have Anemia. This is a condition characterized by a shortage of red blood cells or insufficient hemoglobin to carry oxygen to the body's tissues.<br>Recommended actions:<br>1. Determine and treat the underlying cause of anemia.<br>2. Increase iron intake through diet or supplements.<br>3. Follow a balanced diet rich in vitamins and minerals.<br>4. Consult a hematologist for evaluation and management."
@@ -787,7 +787,7 @@
         {
             "tag": "Lupus",
             "patterns": [
-                "joint pain, skin rash, fatigue, fever",
+                "joint pain, skin rash, tiredness, fever",
                 "joint pain, skin rash, stiffness , swelling",
                 "skin rash, stiffness , swelling"
             ],
@@ -810,8 +810,8 @@
         {
             "tag": "Fibromyalgia",
             "patterns": [
-                "widespread pain, fatigue, sleep disturbances, cognitive difficulties",
-                "widespread pain, fatigue, sleep"
+                "widespread pain, tiredness, sleep disturbances, cognitive difficulties",
+                "widespread pain, tiredness, sleep"
             ],
             "responses": [
                 "You may have Fibromyalgia. It's a chronic pain condition that can affect muscles and soft tissues.<br>Recommended actions:<br>1. Consult a healthcare professional for diagnosis and treatment.<br>2. Treatment often involves medications, physical therapy, and lifestyle adjustments."
@@ -821,8 +821,8 @@
         {
             "tag": "Atrial Fibrillation",
             "patterns": [
-                "irregular heartbeat, dizziness, fatigue",
-                "irregular heartbeat, palpitations, dizziness, fatigue"
+                "irregular heartbeat, dizziness, tiredness",
+                "irregular heartbeat, palpitations, dizziness, tiredness"
             ],
             "responses": [
                 "You may have Atrial Fibrillation (AFib). It's an irregular heart rhythm that can lead to various cardiovascular issues.<br>Recommended actions:<br>1. Consult a cardiologist for diagnosis and treatment.<br>2. Medications and procedures may be prescribed to manage AFib and reduce stroke risk."
@@ -832,9 +832,9 @@
         {
             "tag": "Pancreatitis",
             "patterns": [
-                "severe abdominal pain, nausea, vomiting, fever,Rapid heart rate",
-                "severe abdominal pain, vomiting, fever",
-                "abdominal pain, nausea, vomiting, fever"
+                "severe abdominal pain, feeling sick, throwing up, fever,rapid heart rate",
+                "severe abdominal pain, throwing up, fever",
+                "abdominal pain, feeling sick, throwing up, fever"
             ],
             "responses": [
                 "You may have Pancreatitis. It's an inflammation of the pancreas that can cause digestive problems.<br>Recommended actions:<br>1. Consult a healthcare professional for diagnosis and treatment.<br>2. Treatment may involve hospitalization, fasting, and pain management."
@@ -844,8 +844,8 @@
         {
             "tag": "Chronic Kidney Disease",
             "patterns": [
-                "fatigue, swelling in legs and ankles, changes in urine output",
-                "fatigue, changes in urine output"
+                "tiredness, swelling in legs and ankles, changes in urine output",
+                "tiredness, changes in urine output"
             ],
             "responses": [
                 "You might have Chronic Kidney Disease (CKD). It's a progressive condition that affects kidney function.<br>Recommended actions:<br>1. Consult a healthcare professional for diagnosis and management.<br>2. Medications and lifestyle changes can help slow the progression of CKD."
@@ -866,7 +866,7 @@
         {
             "tag": "Multiple Sclerosis",
             "patterns": [
-                "fatigue, muscle weakness, numbness, difficulty walking,vision problems, problems with thinking, learning and planning",
+                "tiredness, muscle weakness, numbness, difficulty walking,vision problems, problems with thinking, learning and planning",
                 "muscle weakness, numbness, difficulty walking,vision problems"
             ],
             "responses": [
@@ -877,19 +877,155 @@
         {
             "tag": "location_help",
             "patterns": [
-                     "Find a hospital",
-    "Show hospitals near me",
-    "Nearby clinic",
-    "Hospital in Adyar",
-    "Clinic in Kilpauk",
-    "I need a hospital",
-    "Where can I go for treatment",
-    "I need to find a medical center"
-                ],
+                "find a hospital",
+                "show hospitals near me",
+                "nearby clinic",
+                "hospital in adyar",
+                "clinic in kilpauk",
+                "i need a hospital",
+                "where can i go for treatment",
+                "i need to find a medical center"
+            ],
             "responses": [
-                    "Please enter the area or city you're looking for hospitals in."
-                ]
-        }       
-
+                "Please enter the area or city you're looking for hospitals in."
+            ]
+        },
+        {
+            "tag": "Cold Sores",
+            "patterns": [
+                "tingling lips",
+                "blisters on lips",
+                "painful mouth sores",
+                "crusty lips"
+            ],
+            "responses": [
+                "You might have Cold Sores, which are caused by the herpes simplex virus.<br>Recommended actions:<br>1. Use antiviral creams or medications.<br>2. Avoid touching the sores.<br>3. Keep the area clean and dry.<br>4. See a doctor if it worsens."
+            ],
+            "Precaution": "To avoid cold sores:<br>1. Avoid sharing personal items.<br>2. Manage stress and sun exposure.<br>3. Use lip balm with sun protection.<br>4. Take antivirals if prescribed."
+        },
+        {
+            "tag": "Food Poisoning",
+            "patterns": [
+                "vomiting",
+                "loose motion",
+                "stomach pain",
+                "fever",
+                "cramps after eating"
+            ],
+            "responses": [
+                "You might have Food Poisoning. It's usually caused by eating contaminated food.<br>Recommended actions:<br>1. Stay hydrated with oral rehydration salts.<br>2. Eat bland food.<br>3. Rest and monitor symptoms.<br>4. Visit a doctor if it persists or worsens."
+            ],
+            "Precaution": "To avoid food poisoning:<br>1. Eat freshly prepared food.<br>2. Avoid roadside or unhygienic food.<br>3. Wash hands before eating.<br>4. Store food properly."
+        },
+        {
+            "tag": "Heat Stroke",
+            "patterns": [
+                "high body temperature",
+                "dry skin",
+                "fast heartbeat",
+                "confusion",
+                "dizziness in sun"
+            ],
+            "responses": [
+                "You might be experiencing Heat Stroke. It's a medical emergency caused by prolonged heat exposure.<br>Recommended actions:<br>1. Move to a cool place immediately.<br>2. Apply cool compresses.<br>3. Drink fluids if conscious.<br>4. Seek emergency medical care."
+            ],
+            "Precaution": "To avoid heat stroke:<br>1. Stay hydrated.<br>2. Avoid going out during peak heat.<br>3. Wear light clothing.<br>4. Take rest in shade or AC rooms."
+        },
+        {
+            "tag": "Motion Sickness",
+            "patterns": [
+                "nausea in travel",
+                "vomiting in car",
+                "dizziness while moving",
+                "uneasy while travelling"
+            ],
+            "responses": [
+                "You might have Motion Sickness. It happens due to repeated movement during travel.<br>Recommended actions:<br>1. Sit facing forward.<br>2. Avoid reading or using screens.<br>3. Take motion sickness tablets.<br>4. Keep windows slightly open."
+            ],
+            "Precaution": "To avoid motion sickness:<br>1. Take preventive medicine before travel.<br>2. Avoid heavy meals.<br>3. Focus on a stable object outside.<br>4. Rest your head on a support."
+        },
+        {
+            "tag": "Lice Infestation",
+            "patterns": [
+                "itchy scalp",
+                "tiny bugs in hair",
+                "nits",
+                "head scratching",
+                "hair lice"
+            ],
+            "responses": [
+                "You might have Head Lice. These are tiny insects that live on the scalp.<br>Recommended actions:<br>1. Use anti-lice shampoo.<br>2. Comb wet hair with fine-tooth comb.<br>3. Wash bedding and clothes in hot water.<br>4. Avoid sharing combs."
+            ],
+            "Precaution": "To avoid lice:<br>1. Avoid sharing personal items.<br>2. Keep hair clean.<br>3. Tie hair in public places.<br>4. Treat infected contacts."
+        },
+        {
+            "tag": "Eye Infection",
+            "patterns": [
+                "red eyes",
+                "itchy eyes",
+                "watery eyes",
+                "sticky eyes",
+                "eye discharge"
+            ],
+            "responses": [
+                "You may have an Eye Infection like conjunctivitis.<br>Recommended actions:<br>1. Wash eyes with clean water.<br>2. Avoid touching or rubbing eyes.<br>3. Use prescribed eye drops.<br>4. Avoid close contact with others."
+            ],
+            "Precaution": "To avoid eye infections:<br>1. Don\u2019t touch eyes with dirty hands.<br>2. Avoid sharing towels.<br>3. Keep eyes clean.<br>4. Use protective eyewear in dust."
+        },
+        {
+            "tag": "Scabies",
+            "patterns": [
+                "intense itching",
+                "red bumps",
+                "skin rash",
+                "worse itching at night",
+                "itching between fingers"
+            ],
+            "responses": [
+                "You may have Scabies. It's a skin condition caused by mites.<br>Recommended actions:<br>1. Use anti-scabies cream.<br>2. Wash clothes and bedding in hot water.<br>3. Avoid close contact.<br>4. Treat all household members."
+            ],
+            "Precaution": "To avoid scabies:<br>1. Avoid skin contact with infected people.<br>2. Maintain hygiene.<br>3. Clean and disinfect clothing.<br>4. Follow full treatment."
+        },
+        {
+            "tag": "Kidney Stones",
+            "patterns": [
+                "severe side pain",
+                "blood in urine",
+                "pain while urinating",
+                "nausea with back pain"
+            ],
+            "responses": [
+                "You may have Kidney Stones. They are hard deposits in the kidney.<br>Recommended actions:<br>1. Drink plenty of water.<br>2. Use pain relief.<br>3. Consult a urologist.<br>4. Surgery may be needed in some cases."
+            ],
+            "Precaution": "To avoid kidney stones:<br>1. Drink lots of water daily.<br>2. Avoid too much salt.<br>3. Limit animal protein.<br>4. Get checked if symptoms appear."
+        },
+        {
+            "tag": "Urine Infection (UTI)",
+            "patterns": [
+                "burning while peeing",
+                "frequent urination",
+                "cloudy urine",
+                "lower belly pain",
+                "urine smells bad"
+            ],
+            "responses": [
+                "You may have a Urinary Tract Infection (UTI).<br>Recommended actions:<br>1. Drink lots of water.<br>2. Avoid caffeine or alcohol.<br>3. Take antibiotics as prescribed.<br>4. Consult a doctor for further advice."
+            ],
+            "Precaution": "To avoid UTI:<br>1. Wipe from front to back.<br>2. Pee after intercourse.<br>3. Stay hydrated.<br>4. Wear cotton underwear."
+        },
+        {
+            "tag": "Gas and Bloating",
+            "patterns": [
+                "gas in stomach",
+                "bloating",
+                "burping",
+                "tight stomach",
+                "stomach feels full"
+            ],
+            "responses": [
+                "You may be experiencing Gas or Bloating. It\u2019s usually due to food or digestion issues.<br>Recommended actions:<br>1. Eat slowly.<br>2. Avoid carbonated drinks.<br>3. Go for a walk after meals.<br>4. Try antacids if needed."
+            ],
+            "Precaution": "To avoid gas and bloating:<br>1. Avoid overeating.<br>2. Limit oily and fried food.<br>3. Drink warm water.<br>4. Chew food well."
+        }
     ]
 }
