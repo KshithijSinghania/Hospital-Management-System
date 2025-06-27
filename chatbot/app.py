@@ -118,4 +118,5 @@ def predict():
     return jsonify({"response": "I'm not sure I understand. Can you rephrase or share more symptoms?"})
 
 if __name__ == "__main__":
-    app.run(debug=True)
+    port = int(os.environ.get("PORT", 5000))
+    app.run(host="0.0.0.0", port=port)
