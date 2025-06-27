@@ -6,20 +6,24 @@ from model import NeuralNet
 from utils import bag_of_words, tokenize
 from collections import Counter
 import nltk
+import os
 
 app = Flask(__name__)
 nltk.download('punkt')
 
+# Get absolute path to current directory (where app.py is located)
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
 # Load intents
-with open("chatbot/data/intents.json", "r", encoding="utf-8") as f:
+with open(os.path.join(BASE_DIR, "data", "intents.json"), "r", encoding="utf-8") as f:
     intents = json.load(f)
 
 # Load symptom-to-disease map
-with open("chatbot/data/symptom_disease_map.json", "r", encoding="utf-8") as f:
+with open(os.path.join(BASE_DIR, "data", "symptom_disease_map.json"), "r", encoding="utf-8") as f:
     symptom_map = json.load(f)
 
 # Load model
-data = torch.load("chatbot/model.pth")
+data = torch.load(os.path.join(BASE_DIR, "model.pth"))
 input_size = data["input_size"]
 hidden_size = data["hidden_size"]
 output_size = data["output_size"]
@@ -48,13 +52,11 @@ def predict_disease(symptoms, raw_message):
     raw_message = raw_message.lower()
     score = Counter()
 
-    # From symptom map
     for key in symptom_map:
         if key in raw_message:
             for disease in symptom_map[key]:
                 score[disease] += 1
 
-    # From intents' training patterns
     for intent in intents["intents"]:
         for pattern in intent.get("patterns", []):
             if pattern.lower() in raw_message:
@@ -81,7 +83,6 @@ def predict():
     prob = torch.softmax(output, dim=1)[0][predicted.item()]
     print(f"🔹 Predicted tag: {tag} (Confidence: {prob:.2f})")
 
-    # ✅ Check for any symptom match in user message (not just tag!)
     for key in symptom_map:
         if key.lower() in msg.lower():
             if key not in session_state["symptoms"]:
@@ -89,7 +90,6 @@ def predict():
                 print("🧠 Collected symptoms so far:", session_state["symptoms"])
                 break
 
-    # 🤖 Ask follow-up if only one symptom so far
     if len(session_state["symptoms"]) == 1:
         remaining = [s for s in common_symptoms if s not in [sym.lower() for sym in session_state["symptoms"]]]
         followup = random.sample(remaining, 3)
@@ -97,7 +97,6 @@ def predict():
             "response": f"Got it. Do you also have {', '.join(followup)}?"
         })
 
-    # 🧠 If 2 or more symptoms, start reasoning
     elif len(session_state["symptoms"]) >= 2:
         top = predict_disease(session_state["symptoms"], msg)
         top = [(d, s) for d, s in top if s >= 1]
@@ -111,7 +110,6 @@ def predict():
         else:
             return jsonify({"response": "Can you describe any other symptoms you're having?"})
 
-    # 🎯 Fallback to normal intent-based reply
     if prob.item() > 0.6:
         for intent in intents["intents"]:
             if tag == intent["tag"]:
