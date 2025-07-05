@@ -1,205 +1,183 @@
-# 🏥 Hospital Management System + 🧠 MediBot (AI Symptom Checker Chatbot)
+<h1>🏥 Hospital Management System + 🧠 MediBot (AI Symptom Checker Chatbot)</h1>
 
-An integrated full-stack Hospital Management System built with the **MERN stack (MongoDB, Express, React, Node.js)**, enhanced by **MediBot**, an AI-powered chatbot that assists patients by checking symptoms and suggesting nearby hospitals.
+<p>An integrated full-stack Hospital Management System built with the <strong>MERN stack (MongoDB, Express, React, Node.js)</strong>, enhanced by <strong>MediBot</strong>, an AI-powered chatbot that assists patients by checking symptoms and suggesting nearby hospitals.</p>
 
----
+<hr />
 
-## 🚀 Overview
+<h2>🚀 Overview</h2>
 
-This web application streamlines hospital operations, including managing users (admins, doctors, patients), appointments, and medical records. It includes a smart chatbot, **MediBot**, that uses a PyTorch-trained model to provide preliminary symptom analysis and offline hospital recommendations based on location.
+<p>This web application streamlines hospital operations, including managing users (admins, doctors, patients), appointments, and medical records. It includes a smart chatbot, <strong>MediBot</strong>, that uses a PyTorch-trained model to provide preliminary symptom analysis and offline hospital recommendations based on location.</p>
 
-All components are combined into a single repository with three main folders:
+<p>All components are combined into a single repository with three main folders:</p>
 
-- `backend` – Node.js + Express API
-- `frontend` – React-based UI
-- `chatbot` – Flask app with PyTorch model
+<ul>
+  <li><code>backend</code> – Node.js + Express API</li>
+  <li><code>frontend</code> – React-based UI</li>
+  <li><code>chatbot</code> – Flask app with PyTorch model</li>
+</ul>
 
----
+<hr />
 
-## 🔗 Live Demo
+<h2>🔗 Live Demo</h2>
 
-- 🌐 <a href="https://hospital-management-sys-git-e1f527-kshithij-singhanias-projects.vercel.app" target="_blank">Frontend (Vercel)</a>  
-- 🖥️ <a href="https://hospital-management-system-1dqr.onrender.com" target="_blank">Backend API (Render)</a>  
-- 🤖 <a href="https://hospital-management-system-chatbot.onrender.com" target="_blank">MediBot Chatbot (Render)</a>
+<ul>
+  <li>🌐 <a href="https://hospital-management-sys-git-e1f527-kshithij-singhanias-projects.vercel.app" target="_blank" rel="noopener noreferrer">Frontend (Vercel)</a></li>
+  <li>🖥️ <a href="https://hospital-management-system-1dqr.onrender.com" target="_blank" rel="noopener noreferrer">Backend API (Render)</a></li>
+  <li>🤖 <a href="https://hospital-management-system-chatbot.onrender.com" target="_blank" rel="noopener noreferrer">MediBot Chatbot (Render)</a></li>
+</ul>
 
----
+<hr />
 
-## ✨ Features
+<h2>✨ Features</h2>
 
-### 🏥 Hospital Management System
+<h3>🏥 Hospital Management System</h3>
+<ul>
+  <li>🔐 User authentication & authorization (Patients, Doctors, Admins)</li>
+  <li>📅 Appointment scheduling & patient record management</li>
+  <li>👨‍⚕️ Doctor dashboard with profile & availability</li>
+  <li>📊 Admin dashboard to manage users & hospital data</li>
+  <li>💻 Responsive UI for mobile and desktop</li>
+</ul>
 
-- 🔐 User authentication & authorization (Patients, Doctors, Admins)
-- 📅 Appointment scheduling & patient record management
-- 👨‍⚕️ Doctor dashboard with profile & availability
-- 📊 Admin dashboard to manage users & hospital data
-- 💻 Responsive UI for mobile and desktop
+<h3>🤖 MediBot – AI Symptom Checker Chatbot</h3>
+<ul>
+  <li>🧠 Intent classification using a PyTorch model</li>
+  <li>💬 Flask-powered chat interface embedded in the app</li>
+  <li>📍 Offline hospital lookup by area (e.g., “Kilpauk”, “Adyar”)</li>
+  <li>🧪 Terminal test version for debugging</li>
+  <li>📁 Static dataset (no external API calls required)</li>
+</ul>
 
-### 🤖 MediBot – AI Symptom Checker Chatbot
+<hr />
 
-- 🧠 Intent classification using a PyTorch model
-- 💬 Flask-powered chat interface embedded in the app
-- 📍 Offline hospital lookup by area (e.g., “Kilpauk”, “Adyar”)
-- 🧪 Terminal test version for debugging
-- 📁 Static dataset (no external API calls required)
+<h2>🛠️ Technologies Used</h2>
 
----
+<h3>Frontend</h3>
+<ul>
+  <li>React</li>
+  <li>React Router</li>
+  <li>Tailwind CSS</li>
+  <li>Lucide Icons</li>
+  <li>Axios</li>
+</ul>
 
-## 🛠️ Technologies Used
+<h3>Backend</h3>
+<ul>
+  <li>Node.js</li>
+  <li>Express.js</li>
+  <li>MongoDB & Mongoose</li>
+  <li>JWT (JSON Web Token) for auth</li>
+  <li>dotenv for environment config</li>
+</ul>
 
-### Frontend
+<h3>Chatbot</h3>
+<ul>
+  <li>Python</li>
+  <li>Flask</li>
+  <li>PyTorch</li>
+  <li>scikit-learn</li>
+  <li>Jinja2</li>
+</ul>
 
-- React
-- React Router
-- Tailwind CSS
-- Lucide Icons
-- Axios
+<hr />
 
-### Backend
+<h2>⚙️ Getting Started (For Local Development)</h2>
 
-- Node.js
-- Express.js
-- MongoDB & Mongoose
-- JWT (JSON Web Token) for auth
-- dotenv for environment config
+<h3>📦 Prerequisites</h3>
+<ul>
+  <li>Node.js v14+</li>
+  <li>Python 3.7+</li>
+  <li>MongoDB (local or cloud)</li>
+</ul>
 
-### Chatbot
+<hr />
 
-- Python
-- Flask
-- PyTorch
-- scikit-learn
-- Jinja2
+<h2>📁 Installation & Setup</h2>
 
----
+<h3>1. Clone the Repository</h3>
 
-## ⚙️ Getting Started (For Local Development)
-
-### 📦 Prerequisites
-
-- Node.js v14+
-- Python 3.7+
-- MongoDB (local or cloud)
-
----
-
-## 📁 Installation & Setup
-
-### 1. Clone the Repository
-
-```bash
-git clone https://github.com/KshithijSinghania/Hospital-Management-System.git
+<pre><code>git clone https://github.com/KshithijSinghania/Hospital-Management-System.git
 cd Hospital-Management-System
-```
+</code></pre>
 
----
+<h3>2. Setup Backend (Node.js/Express)</h3>
 
-### 2. Setup Backend (Node.js/Express)
-
-```bash
-cd backend
+<pre><code>cd backend
 npm install
-```
+</code></pre>
 
-Create a `.env` file in `backend`:
+<p>Create a <code>.env</code> file in <code>backend</code>:</p>
 
-```env
-MONGO_URI=mongodb://0.0.0.0/Hospital-Management-System-MERN
+<pre><code>MONGO_URI=mongodb://0.0.0.0/Hospital-Management-System-MERN
 PORT=8080
-```
+</code></pre>
 
-Optionally, create the first admin:
+<p>Optionally, create the first admin by editing <code>createAdmin.js</code>:</p>
 
-Edit `createAdmin.js`:
-
-```js
-const admin = new Admin({
+<pre><code>const admin = new Admin({
   firstName: "abc",
   lastName: "xyz",
   email: "abc@gmail.com",
   password: "xyz123",
   role: "admin"
 });
-```
+</code></pre>
 
-Run:
-
-```bash
-node createAdmin.js
-```
-
-Start server:
-
-```bash
+<pre><code>node createAdmin.js
 node server.js
-```
+</code></pre>
 
----
+<h3>3. Setup Frontend (React)</h3>
 
-### 3. Setup Frontend (React)
-
-```bash
-cd ../frontend
+<pre><code>cd ../frontend
 npm install
-```
+</code></pre>
 
-Create a `.env` file in `frontend`:
+<p>Create a <code>.env</code> file in <code>frontend</code>:</p>
 
-```env
-REACT_APP_API_URL=https://your-backend-api.onrender.com
+<pre><code>REACT_APP_API_URL=https://your-backend-api.onrender.com
 REACT_APP_CHATBOT_URL=https://your-chatbot-api.onrender.com
-```
+</code></pre>
 
-Start frontend:
+<pre><code>npm start</code></pre>
 
-```bash
-npm start
-```
+<p>Visit: <a href="http://localhost:3000" target="_blank" rel="noopener noreferrer">http://localhost:3000</a></p>
 
-Visit: [http://localhost:3000](http://localhost:3000)
+<h3>4. Setup MediBot Chatbot (Flask)</h3>
 
----
-
-### 4. Setup MediBot Chatbot (Flask)
-
-```bash
-cd ../chatbot
+<pre><code>cd ../chatbot
 pip install -r requirements.txt
-```
+</code></pre>
 
-(Optional) To retrain the model:
+<p>(Optional) To retrain the model:</p>
 
-```bash
-python model/train.py
-```
+<pre><code>python model/train.py
+</code></pre>
 
-Run the chatbot:
+<pre><code>python app.py
+</code></pre>
 
-```bash
-python app.py
-```
+<p>Visit: <a href="http://127.0.0.1:5000" target="_blank" rel="noopener noreferrer">http://127.0.0.1:5000</a></p>
 
-Visit: [http://127.0.0.1:5000](http://127.0.0.1:5000)
+<hr />
 
----
+<h2>🧪 Chatbot Test CLI (Optional)</h2>
 
-## 🧪 Chatbot Test CLI (Optional)
+<pre><code>python test_chat.py</code></pre>
 
-```bash
-python test_chat.py
-```
+<hr />
 
----
+<h2>🧑‍💻 Contributing</h2>
 
-## 🧑‍💻 Contributing
+<p>Contributions are welcome! Feel free to:</p>
+<ul>
+  <li>Submit a pull request 🛠️</li>
+  <li>Open issues for bugs/suggestions 🐛</li>
+  <li>Improve model training or expand the dataset 📊</li>
+</ul>
 
-Contributions are welcome! Feel free to:
+<hr />
 
-- Submit a pull request 🛠️
-- Open issues for bugs/suggestions 🐛
-- Improve model training or expand the dataset 📊
+<h2>📄 License</h2>
 
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
+<p>This project is open source and available under the <a href="LICENSE" target="_blank" rel="noopener noreferrer">MIT License</a>.</p>
