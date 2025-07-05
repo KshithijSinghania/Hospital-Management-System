@@ -18,9 +18,9 @@ All components are combined into a single repository with three main folders:
 
 ## 🔗 Live Demo
 
-- 🌐 [Frontend (Vercel)](https://hospital-management-sys-git-e1f527-kshithij-singhanias-projects.vercel.app)
-- 🖥️ [Backend API (Render)](https://hospital-management-system-1dqr.onrender.com)
-- 🤖 [MediBot Chatbot (Render)](https://hospital-management-system-chatbot.onrender.com)
+- 🌐 <a href="https://hospital-management-sys-git-e1f527-kshithij-singhanias-projects.vercel.app" target="_blank">Frontend (Vercel)</a>  
+- 🖥️ <a href="https://hospital-management-system-1dqr.onrender.com" target="_blank">Backend API (Render)</a>  
+- 🤖 <a href="https://hospital-management-system-chatbot.onrender.com" target="_blank">MediBot Chatbot (Render)</a>
 
 ---
 
