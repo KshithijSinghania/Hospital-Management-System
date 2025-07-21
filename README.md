@@ -21,7 +21,7 @@
 <h2>🔗 Live Demo</h2>
 
 <ul>
-  <li>🌐 <a href="https://hospital-management-sys-git-e1f527-kshithij-singhanias-projects.vercel.app" target="_blank" rel="noopener noreferrer">Frontend (Vercel)</a></li>
+  <li>🌐 <a href="https://uber-clone-git-main-kshithij-singhanias-projects.vercel.app" target="_blank" rel="noopener noreferrer">Frontend (Vercel)</a></li>
   <li>🖥️ <a href="https://hospital-management-system-1dqr.onrender.com" target="_blank" rel="noopener noreferrer">Backend API (Render)</a></li>
   <li>🤖 <a href="https://hospital-management-system-chatbot.onrender.com" target="_blank" rel="noopener noreferrer">MediBot Chatbot (Render)</a></li>
 </ul>
